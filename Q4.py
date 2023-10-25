@@ -1,6 +1,8 @@
 # Faça um algoritmo que leia a idade de uma pessoa expressa em dias e mostre
 # a expressa em anos, meses e dias.
 
+# import datetime
+
 numeros_De_dias = int(input('infome quantidaddes de dias que tens: '))
 anos = numeros_De_dias // 365
 dias_restantes_do_ano = (numeros_De_dias - anos * 365)
@@ -29,12 +31,7 @@ print (anos,'ano',meses,'mes',dias,'dia')
 
 
 '''
-import datetime
-ano = int(input('informe ano: '))
-mes = int(input('informe mes: '))
-dia = int(input('informe dia: '))
-
-d1 = datetime.datetime(year=ano,month=mes,day=dia)
+d1 = datetime.datetime(2010,11,20,23)
 d2 = datetime.datetime.now()
 
 diff = d2 - d1
