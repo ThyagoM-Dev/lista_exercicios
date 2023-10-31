@@ -1,0 +1,1 @@
+# Respostas para exercícios lógicos propostos.
